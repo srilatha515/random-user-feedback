@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Random User Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Random User Generator</h1>
+
+  <div class="user-card" id="userCard">
+    <p>Click the button to load a random user</p>
+  </div>
+
+  <button id="loadUser">Get Random User</button>
+
+  <form id="feedbackForm">
+    <h2>Send Feedback</h2>
+    <input type="text" id="name" placeholder="Your name" required />
+    <textarea id="message" placeholder="Your feedback" required></textarea>
+    <button type="submit">Submit Feedback</button>
+  </form>
+
+  <p id="responseMessage"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
